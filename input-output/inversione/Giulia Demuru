@@ -1,0 +1,5 @@
+print ("Quale è il tuo cognome?");
+cognome = input();
+print ("Quale è il tuo nome?");
+nome = input();
+print ("Buongiorno," + nome + " " + cognome);

@@ -1,0 +1,14 @@
+print ("Digita nome:");
+nome = input ()
+print ("Digita sesso M/F");
+sesso = input()
+print ("Digita età:");
+età = int(input()) 
+if sesso == ("M") and età<18:
+  print ("Caro " + nome + ", sei troppo piccolo per questo programma."); 
+if sesso == ("F") and età<18:
+  print ("Cara " + nome + ", sei troppo piccola per questo programma");
+if sesso == ("M") and età>18:
+  print ("Gentile sig. " + nome + ", benvenuto in questo programma.");
+if sesso == ("F") and età>18:
+  print ("Gentile sig.ra. " + nome + ", benvenuta in questo programma."); 

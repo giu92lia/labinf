@@ -1,0 +1,22 @@
+import turtle
+
+t = turtle.Turtle()
+print ("Inserisci la dimensione del lato minore:");
+latominore = int(input())
+print ("Inserisci la dimensione del lato maggiore:");
+latomaggiore = int(input()) 
+area = (int(latomaggiore)*int(latominore))
+perimetro = (int(latomaggiore)*2)+(int(latominore)*2)
+print ("Inserisci il colore del perimetro:");
+colore = t.color(input()) 
+t.forward(int(latomaggiore)); 
+t.left(90);
+t.forward(int(latominore));
+t.left(90); 
+t.forward(int(latomaggiore));
+t.left(90);
+t.forward(int(latominore)); 
+print ("area: " + str(area));
+print ("perimetro: " + str(perimetro)); 
+
+#Manca questa parte di consegna: se il colore scelto dall'utente non è tra quelli predefiniti in Python (red, pink, blue, ecc.), allora il colore del perimetro deve essere nero.

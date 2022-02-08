@@ -1,0 +1,7 @@
+print ("Quale è il tuo nome?")
+nome = input(); 
+print ("Quale è la tua pizza preferita?")
+pizza = input(); 
+print ("Quale è il tuo dolce preferito?")
+dolce = input();
+print ("Ciao " + nome + "! La tua pizza preferita è " +  pizza + " e il tuo dolce preferito è " + dolce + ".")  

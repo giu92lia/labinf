@@ -1,0 +1,10 @@
+import random
+x = random.randint(1,5)
+print ("Inserisci un numero compreso tra 1 e 5");
+n = int(input())
+if n<1 or n>5:
+ print ("Errore");
+if n == x:
+ print ("Hai vinto!");
+else:
+  print ("Hai perso."); 

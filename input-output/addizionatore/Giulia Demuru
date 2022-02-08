@@ -1,0 +1,6 @@
+print ("Inserici il primo numero:");
+n = input()
+print ("Inserisci il secondo numero:");
+m = input()
+a=int(n)+int(m)
+print ("La somma tra " + str(n) + " e " + str(m) + " è " + str(a)); 

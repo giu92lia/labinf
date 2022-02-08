@@ -34,6 +34,7 @@ print ("ciao, " + nome);
 # stampa un'altra domanda sulla console
 print ("quanti anni hai? ");
 
+
 # Adesso vorrei leggere un numero da tastiera, 
 # ma la funzione input() legge solo delle stringhe.
 # Posso convertire la stringa in un numero intero usando l'operatore int(...)
@@ -57,3 +58,9 @@ anni = anni + 15
 
 # Concludo con una ulteriore offesa
 print ("In realta' sembra che tu abbia " + str(anni) + " anni.");
+
+print ("Ti sei offeso/a?")
+risposta = input()
+print ("Quanto ti sei offeso/a da 0 a 10?)")
+numero = int(input()); 
+print ("Non mi interessa, ciao!") 

@@ -1,0 +1,6 @@
+print ("Inserisci il tuo numero di matricola:");
+n = int(input())
+if n % 2 == 0:
+  print ("Matricola pari"); 
+else:
+  print ("Matricola dispari"); 

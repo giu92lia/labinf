@@ -1,0 +1,6 @@
+n = input()
+m = input()
+p = input()
+a = int(n)+int(m)+int(p)   
+d = int(a)/3
+print ("La media tra " + str(n) + " " + str(m) + " e " + str(p) + " è " + str(d)); 

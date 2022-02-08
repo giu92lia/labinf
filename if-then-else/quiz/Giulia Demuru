@@ -1,0 +1,10 @@
+import random
+x = random.randint(1,10)
+y = random.randint(1,10)
+z = (int(x) * int(y))
+print ("Quanto fa " + str(x) + " per " + str(y) + "?");
+r = int(input())
+if r == z:
+  print ("Bravo!");
+else:
+  print ("Sbagliato, la risposta esatta è " + str(z) + ".");  

@@ -13,4 +13,10 @@ pippo.left(90)
 # disegno il secondo lato del rettangolo
 pippo.forward(75)
 
+pippo.left(90)
+pippo.forward(150)
+pippo.left(90)
+pippo.forward(75)
+
+
 # aggiungere il codice qui sotto (non modificare le righe sopra questo commento)

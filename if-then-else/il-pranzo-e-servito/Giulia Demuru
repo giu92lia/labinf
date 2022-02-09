@@ -1,0 +1,24 @@
+print ("Inserisci il numero del tavolo:");
+tavolo = int(input()); 
+print("Inserisci il tipo di pizza scegliendo tra M per margherita e N per napoli");
+pizza = input()
+if pizza == "M": 
+  prezzopizza = 5
+  nomepizza = "Pizza Margherita"
+  quantità = 1
+if pizza == "N":
+  prezzopizza = 6
+  nomepizza = "Pizza Napoli"
+  quantità = 1
+print ("Inserisci il tipo di dolce scegliendo tra T per tiramisà e S per sorbetto:");
+dolce = input()
+if dolce == "T":
+  prezzodolce = 4
+  nomedolce = "Tiramisù"
+  quantità = 1
+if dolce == "S":
+  prezzodolce = 3 
+  nomedolce = "Sorbetto"
+  quantità = 1
+conto = prezzopizza + prezzodolce
+print ("Conto del tavolo " + str(tavolo) + ": " + str(quantità) + " " + str(nomepizza) + ": " + str(prezzopizza) + " euro. " + str(quantità) + " " + str(nomedolce) + ": " + str(prezzodolce) + " euro. Totale: " + str(conto) + " euro.");  
